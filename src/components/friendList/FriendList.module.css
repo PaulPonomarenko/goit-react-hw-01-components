@@ -1,0 +1,36 @@
+.friend__list {
+  list-style: none;
+  display: block;
+  padding-left: 0;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  border: 1px solid rebeccapurple;
+  border-radius: 5px;
+  box-shadow: 9px 6px 25px -2px rgba(163, 85, 163, 1);
+}
+
+.online {
+  width: 15px;
+  height: 15px;
+  background-color: green;
+  border-radius: 50%;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+.offline {
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  border-radius: 50%;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+.name {
+  margin-left: 25px;
+}
