@@ -1,0 +1,30 @@
+.transaction__history {
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  text-align: center;
+
+  /* border: 2px solid rebeccapurple; */
+}
+tr th {
+  height: 40px;
+  background: #ab16c2;
+  outline: 1px solid rebeccapurple;
+}
+tbody tr {
+  outline: 1px solid rebeccapurple;
+}
+tr td {
+  outline: 1px solid rebeccapurple;
+  height: 30px;
+}
+tbody tr:nth-child(odd) {
+  background-color: #fdfbfcd8;
+}
+
+tbody tr:nth-child(even) {
+  background: rgb(211, 171, 249);
+}
+thead {
+  color: aliceblue;
+}
