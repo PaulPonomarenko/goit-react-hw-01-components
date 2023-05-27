@@ -1,0 +1,25 @@
+.statistics {
+  padding-top: 100px;
+}
+.title {
+  text-align: center;
+}
+.stat__list {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.item {
+  height: 80px;
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: azure;
+}
+.label {
+  margin-bottom: 10px;
+}
