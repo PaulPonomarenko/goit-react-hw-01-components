@@ -1,0 +1,10 @@
+.profile {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  border: 1px solid rebeccapurple;
+  border-radius: 10px;
+  background-color: rgb(234, 213, 253);
+  box-shadow: 9px 6px 25px -2px rgba(163, 85, 163, 1);
+}
