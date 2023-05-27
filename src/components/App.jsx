@@ -3,7 +3,6 @@ import css from './App.module.css';
 import { ProfileDescription } from './profile/ProfileDescription';
 import { ProfileStats } from './stats/ProfileStats';
 export const App = () => {
-  console.log(user.stats);
   return (
     <div className={css.profile}>
       <ProfileDescription

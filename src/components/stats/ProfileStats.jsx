@@ -3,7 +3,7 @@ import css from './ProfileStats.module.css';
 
 export const ProfileStats = ({ followers, views, likes }) => {
   return (
-    <ul class={css.stats}>
+    <ul className={css.stats}>
       <li className={css.li_items}>
         <span className={css.label}>Followers</span>
         <span className={css.quantity}>{followers}</span>
@@ -18,4 +18,9 @@ export const ProfileStats = ({ followers, views, likes }) => {
       </li>
     </ul>
   );
+};
+ProfileStats.propTypes = {
+  followers: PropTypes.number.isRequired,
+  views: PropTypes.number.isRequired,
+  likes: PropTypes.number.isRequired,
 };
